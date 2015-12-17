@@ -1,0 +1,13 @@
+<?php
+    SESSION_START();
+    if ($_SESSION['authenticated'] != '1') {
+        header("location:login/login.php");
+        exit;
+    }else{
+        if($_SESSION['authenticated'] == '1'){
+            $user = $_SESSION["codEmpleado"];
+            $stmt = $db -> prepare("CALL updatelog(1,?)");
+            $stmt -> execute(array($user));
+        }
+    }
+?>

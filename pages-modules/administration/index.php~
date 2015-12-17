@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+        <meta charset="UTF-8">
+
+                <div class="col-lg-4">   
+             
+                    <label for="buscar">Buscar Expediente:</label>
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="Numero de Identidad..." id="numero_de_identidad">
+                <span class="input-group-btn">
+                    <button class="btn btn-default" type="button" id="boton_buscar_expediente">Buscar</button>
+                </span>
+                </div>
+                </div> 
+       <div id="aqui va lo expedientes">
+
+</div>

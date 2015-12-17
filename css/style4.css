@@ -1,0 +1,9 @@
+.profile-header,
+#profile {
+    margin-top: 10px;
+}
+
+#popover_content_wrapper {
+    max-width: 150px;
+    width: auto;
+}
