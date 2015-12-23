@@ -39,8 +39,8 @@ echo <<<HTML
 
             </div>
         </div>
-                <div id="message"></div>
-        </div>
+                
+        
     <script>
         $("#edificio").click(function(event){
             edificio = document.getElementById('edificio');
@@ -86,8 +86,7 @@ HTML;
 echo <<<HTML
             </div>
         </div>
-                <div id="message"></div>
-    </div>
+                
     
 HTML;
 
@@ -120,8 +119,7 @@ HTML;
 echo <<<HTML
             </div>
         </div>
-                <div id="message"></div>
-    </div>
+                
 HTML;
 
 
@@ -156,8 +154,7 @@ HTML;
 echo <<<HTML
             </div>
         </div>
-                <div id="message"></div>
-    </div>
+                
 HTML;
 
 
@@ -189,8 +186,7 @@ HTML;
 echo <<<HTML
             </div>
         </div>
-                <div id="message"></div>
-    </div>
+                
     
 HTML;
 

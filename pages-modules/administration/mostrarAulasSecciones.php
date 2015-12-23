@@ -27,7 +27,6 @@ HTML;
 echo <<<HTML
             </div>
         </div>
-                <div id="message"></div>
-    </div>
+    
 HTML;
 ?>

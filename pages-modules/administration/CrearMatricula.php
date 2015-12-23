@@ -76,13 +76,13 @@
                         echo "<span class='badge alert-danger'>Desactivado</div>";*/-->
 
                     
-                        <tr class="btn_view" role="button"
+                        <tr class="btn_view " role="button"
                             data-toggle="modal" data-target="#viewMoreMatricula"
                                 data-id = <?php echo $CODIGO_PERSONA ?> >
                             <td><?php echo $NOMBRE ?></td>
                             <td><?php echo $APELLIDO ?></td>
                             <td><?php echo $NIVEL ?></td>
-                            <td>activado</td>    
+                            <td>Matriculado</td>    
                         </tr>
                       
 <?php
@@ -95,7 +95,7 @@
                             <td><?php echo $NOMBRE ?></td>
                             <td><?php echo $APELLIDO ?></td>
                             <td><?php echo $NIVEL ?></td>
-                            <td>Desactivado</td>    
+                            <td>No Matriculado</td>    
                         </tr>
     <?php
         }

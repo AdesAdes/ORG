@@ -1,23 +1,24 @@
 
 <div class="modal fade" id="viewMoreMatricula" tabindex="-1" role="dialog"
     aria-labelledby="Modallabel" aria-hidden="true">
-    <div class="modal-dialog">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">
                     <span aria-hidden="true">&times;</span>
                     <span class="sr-only">Cerrar</span>
                 </button>
-                <h4 class="modal-title">Información de Matricula</h4>
+                <h4 class="modal-title">Matricula</h4>
             </div>
             <div class="modal-body">
                 
             </div>
             <div class="modal-footer right">
-                <button type="button" class="btn btn-danger" id = "btnCerrar"
+            
+                <button type="button" class="btn btn-info btn-lg" id = "btnMatricular"
                     data-dismiss="modal">
                     <i class="fa fa-times"></i>
-                            Cerrar
+                            Matricular
                 </button>
             </div>
         </div>
@@ -60,8 +61,8 @@
         $(".btn_view").click(function(event){
             event.preventDefault();
             id = $(this).data('id');
-            $.get('pages-modules/administration/viewMoreSalones.php?CODIGO_AULA=' + id, function(html){
-                $('#viewMoreSalon .modal-body').html(html);
+            $.get('pages-modules/administration/viewMoreMatricula.php', function(html){
+                $('#viewMoreMatricula .modal-body').html(html);
             });
         });
         
